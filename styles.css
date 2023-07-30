@@ -1,0 +1,93 @@
+body {
+    background: #e3e9f5;
+    color: white;
+    padding: 0;
+    margin: 0;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.demotivator-frame {
+    background: #000;
+    box-shadow: 2px 2px 13px #000;
+    width: 35vw;
+    min-width: 500px;
+    height: 95vh;
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.image-frame {
+    width: 100%;
+    aspect-ratio : 1 / 1;
+    border: 2px solid white;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-frame-placeholder {
+    width: 100%;
+    position: relative;
+    top: 1;
+}
+
+.image-frame-placeholder a {
+    color: white;
+    text-decoration: none;
+}
+
+.image-frame-placeholder a:hover {
+    color: rgb(89, 89, 233);
+    text-decoration: underline;
+}
+
+.image-frame-placeholder span {
+    position: absolute;
+    display: inline-block;
+    background: black;
+    font-size: 15px;
+    padding: 3px;
+    box-sizing: border-box;
+    width: auto;
+    white-space: nowrap;
+    left: 100%;
+    transform: translate(calc(-100% - 10px), -50%);
+    z-index: 1;
+}
+
+.image-div {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0e/Felis_silvestris_silvestris.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.demotivator-frame h1 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.demotivator-frame h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 0px;
+}
