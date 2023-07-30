@@ -1,5 +1,5 @@
 body {
-    background: #e1edff;
+    background: #e3e9f5;
     color: white;
     padding: 0;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 
 .demotivator-frame {
     background: #000;
-    box-shadow: 0 0px 15px #000;
+    box-shadow: px 2px 13px #000;
     width: 35vw;
     min-width: 500px;
     height: 95vh;
