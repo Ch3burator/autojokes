@@ -7,6 +7,33 @@ body {
     height: 100%; */
 }
 
+.controls button {
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(113, 113, 163);
+    font-weight: 700;
+}
+
+#toggle-music {
+    text-decoration: line-through;
+}
+
+.controls {
+    position: fixed;
+    display: flex;
+    margin-top: 50px;
+    z-index: -1;
+    width: 100%;
+    justify-content: end;
+    padding-right: 70px;
+    box-sizing: border-box;
+}
+
 .demotivator-frame {
     background: #000;
     box-shadow: 2px 2px 13px #000;
@@ -90,4 +117,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     margin-top: 0px;
+}
+
+#sentence {
+    display: none;
 }
